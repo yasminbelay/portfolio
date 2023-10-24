@@ -1,39 +1,36 @@
 var dataJson = [
-    {
-        "img": "https://cdn-icons-png.flaticon.com/128/644/644667.png",
-        "title": "Mcodo",
-        "paragraph":"Mcodo : Learn Free coding & Online 25+ compiler.",
-        "url":"https://play.google.com/store/apps/details?id=in.sohezsoft.mcodo"
-    },
-    {
-        "img": "https://cdn-icons-png.flaticon.com/128/5806/5806364.png",
-        "title": "Quizec",
-        "paragraph":"Quizec : is The Quiz Game For Android.",
-        "url":"https://play.google.com/store/apps/details?id=in.sohezsoft.quiz.app"
-    },
-    {
-        "img": "https://cdn-icons-png.flaticon.com/128/1021/1021264.png",
-        "title": "Tic-Tac-Toe",
-        "paragraph":"Tic-Tac-Toe : Js/HTML/CSS tic tac toe Game. ",
-        "url":"https://sohez.github.io/tic-tac-toe/"
-    },
-    {
-        "img": "https://cdn-icons-png.flaticon.com/128/2156/2156009.png",
-        "title": "M.P.C",
-        "paragraph":"Marks Percentage Calculator : Download Result.",
-        "url":"https://sohez.github.io/Marks-Percentage-Calculator/"
-    },
-    {
-        "img": "https://cdn-icons-png.flaticon.com/128/2190/2190654.png",
-        "title": "Smart Suvichar",
-        "paragraph":"Smart Suvichar: Open Source java Aplication",
-        "url":"https://github.com/sohez/smart-vichar"
-    }
+  {
+    img: "https://cdn-icons-png.flaticon.com/128/644/644667.png",
+    title: "MIU Badge scanner",
+    paragraph:
+      "A badge scanning system for members of MIU students, professors, customers, gym memebers, TM teachers etc..",
+    url: "https://github.com/yasminbelay/miu-badge-scanner",
+  },
+  {
+    img: "https://cdn-icons-png.flaticon.com/128/5806/5806364.png",
+    title: "Integration project",
+    paragraph:
+      "Microservice system to collect and process CPU, RAM, DISK, and NETWORK data from different machines and presented those graphically in a web client.",
+    url: "https://github.com/yasminbelay/INTEGRATION-PROJECT",
+  },
+  {
+    img: "https://cdn-icons-png.flaticon.com/128/1021/1021264.png",
+    title: "Eri Gateway",
+    paragraph:
+      "An airbnb like service built with spring boot and microservices architecture",
+    url: "https://github.com/yasminbelay/eri-gateway",
+  },
+  {
+    img: "https://cdn-icons-png.flaticon.com/128/2156/2156009.png",
+    title: "Banking System",
+    paragraph: "A spring boot bankend API endpoints for a banking system",
+    url: "https://github.com/yasminbelay/banking-system",
+  },
 ];
 
 var raw_html = "";
-dataJson.forEach(function(item){
-    raw_html += `<div
+dataJson.forEach(function (item) {
+  raw_html += `<div
     class="col-lg-5"
     style="min-height: fit-content;">
     <div
@@ -63,6 +60,5 @@ dataJson.forEach(function(item){
       </div>
     </div>
     </div>`;
-})
-document.getElementById('project-container').innerHTML = raw_html;
-
+});
+document.getElementById("project-container").innerHTML = raw_html;

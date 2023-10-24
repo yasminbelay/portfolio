@@ -6,14 +6,13 @@
    --bg: #121212; 
   --bg-sec:#222222;
   --txt-color: #efeaea; */
-  
+
   --bg: #fff;
-  --bg-sec:#ececec;
+  --bg-sec: #ececec;
   --txt-color: rgb(0, 0, 0);
 
   --white: #efeaea;
   --maincolor: #fe4365;
-
 }
 
 ::-moz-selection {
@@ -32,19 +31,19 @@ body {
   font-family: "Josefin Sans", Arial;
   color: var(--txt-color);
   overflow: scroll;
-  background-image: url('../res/bg.svg');
+  background-image: url("../res/bg.svg");
   background-repeat: no-repeat;
 }
 
-#submit{
+#submit {
   border: 1px solid var(--maincolor);
   color: var(--maincolor);
 }
-#submit:hover{
+#submit:hover {
   background-color: var(--maincolor);
   color: white;
 }
-.txt-color{
+.txt-color {
   color: var(--txt-color);
 }
 
@@ -54,11 +53,12 @@ body {
   transition: 1.5s;
 }
 
-.input-bg{
+.input-bg {
   background-color: var(--bg-sec);
   color: var(--txt-color);
 }
-input:focus,textarea:focus{
+input:focus,
+textarea:focus {
   background-color: var(--bg-sec) !important;
   color: var(--txt-color) !important;
 }
@@ -126,26 +126,26 @@ span {
   height: 90%;
   border-radius: 20%;
   object-fit: cover;
-  object-position: 25% 25%;
+  object-position: 25% 60%;
 
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
-.logo:hover{
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
+.logo:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
 }
 
 /* style for social midia icons */
-.svg-icon{
-margin: 4px;
+.svg-icon {
+  margin: 4px;
 }
 .svg-icon:hover {
   opacity: 0.5;
 }
-a:hover{
+a:hover {
   opacity: 0.5;
   color: var(--maincolor);
 }
@@ -208,7 +208,7 @@ ul li a i:hover {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: #0096FF ;
+  background-color: #0096ff;
   height: 30px;
   width: 30px;
   border: 1px solid #151414;
@@ -323,7 +323,7 @@ ul li a i:hover {
 }
 
 @media only screen and (max-width: 400px) {
-  .a-tag{
+  .a-tag {
     font-size: 0.8rem;
     margin-right: 5px;
     cursor: pointer;
@@ -331,30 +331,31 @@ ul li a i:hover {
 }
 
 /* custom css */
-.big-title{
+.big-title {
   font-size: 4rem;
 }
-.typed-text{
+.typed-text {
   font-size: 1.2em;
 }
-.img-co{
-  height: 300px; width: 300px;
+.img-co {
+  height: 300px;
+  width: 300px;
 }
 
-#Email{
-  border: 0; 
-  box-shadow: none
-}
-#Message{
-  border: 0; 
+#Email {
+  border: 0;
   box-shadow: none;
 }
-#checker{
+#Message {
+  border: 0;
+  box-shadow: none;
+}
+#checker {
   font-size: 1rem;
 }
 
-#toggle-card{
-  transition: height .10s ease;
+#toggle-card {
+  transition: height 0.1s ease;
   overflow: hidden;
 }
 #toggle-card:not(.active) {
